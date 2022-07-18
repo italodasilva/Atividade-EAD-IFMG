@@ -1,0 +1,47 @@
+
+#home main a {
+    background-color: #d20000;
+    border-radius: 25px;
+    border: none;
+    width: 440px;
+    height: 70px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+#home main a:hover {
+    background-color: #ff0000;
+}
+
+#home main {
+    height: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+#Content-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 60vh;
+}
+
+#content-left h3 {
+    margin-left: 20px;
+}
+
+#Catalogo {
+    max-width: 700px;
+    width: 100%;
+    height: auto;
+}
+
+#home .icones {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+
+}

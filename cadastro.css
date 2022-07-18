@@ -1,0 +1,122 @@
+
+form {
+    background-color: #fdfdfd;
+    border-radius: 8px;
+    margin: 40px auto;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+form h1 {
+    font-size: 50px;
+    color: #4b4b4b;
+    margin-top: 0px;
+}
+
+/*form fieldset {
+    border: 0;
+}*/
+
+form legend {
+    margin-bottom: 24px;
+}
+
+form legend h2 {
+    font-size: 36px;
+    color: #4b4b4b;
+    margin: 20px;
+}
+
+form .field{
+    flex: 1;
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+    color: #4b4b4b;
+    font-size: 24px;
+}
+
+form input, form  select {
+    background-color: #4b4b4b;
+    color: #fdfdfd;
+    border: 0;
+    padding: 16px 24px;
+    font-size: 22px;
+    border-radius: 8px;
+}
+
+button {
+    cursor: pointer;
+}
+
+form .field-group {
+    display: flex;
+}
+
+#home main a , form button{
+    background-color: #ff0000;
+    border-radius: 25px;
+    border: none;
+    width: 440px;
+    height: 70px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+form a, button{
+    color: #fdfdfd;
+    margin-top: 40px;
+}
+
+#home main a:hover, button {
+    background-color: #ff0000;
+}
+
+#home main {
+    height: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+#Content-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 60vh;
+}
+
+#content-left h3 {
+    margin-left: 20px;
+}
+
+#content-right {
+    width: 500px;
+};
+
+#content-right p {
+    padding-left: 10px;
+};
+
+#area-cartaz, #area-listagem {
+    overflow-x: hidden;
+    overflow-y: auto;
+};
+
+#cartaz {
+    max-width: 500px;
+    max-height: 500px;
+    width: auto;
+    height: 100%;
+}
+
+#home .icones {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+
+}

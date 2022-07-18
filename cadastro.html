@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Miaunet</title>
+
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="All.css">
+        <link rel="stylesheet" href="Cadastro.css">
+
+        <link rel="shortcut icon" href="Logo.png" type="image/x-icon">
+    </head>
+    <body>
+        <div id="home">
+            <header>
+                <img id="logo" src="Logo.png" alt="Logomarca">
+            <h1>Miaunet</h1>
+            <a id="botao-pesquisa" href="#">
+                <img class="icones" src="Search.png" alt="Pesquisar">
+                <h3></h3>
+            </a>
+            </header>
+            <main>
+                <div id="content-left">
+                    <form action="">
+                        <h1></h1>
+                        <fieldset>
+                            <legend>
+                                <h2>Dados de uma Obra</h2>
+                            </legend>
+                            <div class="field">
+                                <label for="titulo">Título:</label>
+                                <input id="titulo" type="text" name="titulo"/>
+                            </div>
+                            <div class="field-group">
+                                <div class="field">
+                                    <label for="tipo">Tipo:</label>
+                                    <select id="tipo" name="tipo">
+                                        <option value="">Selecione o tipo da obra:</option>
+                                        <option value="Filme">Filme</option>
+                                        <option value="Seriado">Seriado</option>
+                                    </select>
+                                </div>
+                                <div class="field">
+                                    <label for="genero">Gênero:</label>
+                                    <select id="genero" name="genero">
+                                        <option value="">Selecione o gênero da obra:</option>
+                                        <option value="Acao">Ação</option>
+                                        <option value="Animacao">Animação</option>
+                                        <option value="Aventura">Aventura</option>
+                                        <option value="Comédia">Comédia</option>
+                                        <option value="Crime">Crime</option>
+                                        <option value="Documentario">Documentário</option>
+                                        <option value="Drama">Drama</option>
+                                        <option value="Familia">Família</option>
+                                        <option value="FiccaoCientifica">Ficção Científica</option>
+                                        <option value="Guerra">Guerra</option>
+                                        <option value="Misterio">Mistério</option>
+                                        <option value="Musica">Música</option>
+                                        <option value="Romance">Romance</option>
+                                        <option value="Suspense">Suspense</option>
+                                        <option value="Terror">Terror</option>
+                                    </select>
+                                </div>
+                                <div id="field-duracao" class="field">
+                                    <label for="duracao">Duração</label>
+                                    <input id="duracao" type="text" name="duracao">
+                                </div>
+                            </div>
+                            </fieldset>
+                            <button id="botao-funciona">
+                                <h3></h3>
+                            </button>
+                    <a href="home.html">
+                        <img class="icones" src="IconeEntrada.png" alt="Entrar">
+                        <h3>Voltar para home</h3>
+                    </a>
+                </div>
+                <div id="content-right">
+                    <section id="area-cartaz">
+                        <p>Aqui vai ficar o upload da foto de cartaz </p>
+                        <input type="file" id="upload" accept="image/*">
+                        <img id="cartaz" src="" alt="Imagem do Cartaz">
+                    </section>
+                    <section id="area-listagem"></section>
+                </div>
+            </main>
+            <footer>            
+            </footer>
+        </div>
+        <script src="codes/CadastroEPesquisa.js"></script>
+    </body>
+</html>
